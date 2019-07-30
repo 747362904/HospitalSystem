@@ -20,7 +20,7 @@ public class DepartmentController {
 	DepartmentService departmentService;
 
 	
-	@RequestMapping("/getAllDepartment")
+	@RequestMapping("/queryDepartment")
 	@ResponseBody
 	public List<Department> getAllDepartment() {
 		
@@ -31,7 +31,6 @@ public class DepartmentController {
 		}
 		
 		return list;
-		
 	}
 
 }

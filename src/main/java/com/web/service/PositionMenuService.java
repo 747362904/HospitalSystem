@@ -2,8 +2,6 @@ package com.web.service;
 
 import java.util.List;
 
-import com.web.entity.Position;
-
 public interface PositionMenuService {
 
 	/**
@@ -12,5 +10,5 @@ public interface PositionMenuService {
 	 * @return
 	 */
 	List<Integer> selectMenuByPoId(Integer poid);
- 
+
 }
